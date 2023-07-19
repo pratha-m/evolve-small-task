@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bottom-container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.596);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-container .innerContainer{
+    height: 90%;
+    width: 90%;
+    background-color:rgba(255,255,255,0.1);
+    box-shadow: 0.5px 0.5px 10px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+.bottom-container .innerContainer .section1{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-container .innerContainer .section1 div{
+   height: 80%;
+   width: 47%;
+   position: relative;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+   background-color: rgba(255,255,255,0.3);
+   box-shadow: 0.5px 0.5px 16px rgba(0,0,0,0.4);
+}
+.bottom-container .innerContainer .section1 .image1Container{
+    background-image: url("./images/img3.jpg");
+}
+.bottom-container .innerContainer .section1 .image2Container{
+    background-image: url("./images/img3.jpg");
+}
+.bottom-container .innerContainer .section2{
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-container .innerContainer .section2 div{
+    height: 80%;
+    width: 412px;
+    min-width: 250px;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: 0.5px 0.5px 16px rgba(0,0,0,0.4);
+}
+.bottom-container .innerContainer .section2 div img{
+    height: 100%;
+}
+@media screen and (max-width:438px){
+    .bottom-container .innerContainer .section2 div{
+        width: 200px
+    }
+}
